@@ -1,4 +1,4 @@
-🔹 Question 1 – Digit Gatekeeper
+ Question 1 – Digit Gatekeeper
 
 Approach
 
@@ -13,7 +13,7 @@ Time Complexity:
 O(N × D)
 (N = range, D = digits)
 
-🔹 Question 2 – Roll-Seed Lock
+ Question 2 – Roll-Seed Lock
 
 Approach
 
@@ -26,7 +26,7 @@ middle digit is seed.
 Time Complexity:
 O(1)
 
-🔹 Question 3 – Mirror Corridor
+ Question 3 – Mirror Corridor
 
 Approach
 
@@ -38,7 +38,7 @@ Find minimum X.
 Time Complexity:
 O(100000 × D)
 
-🔹 Question 4 – Fare Calculator
+ Question 4 – Fare Calculator
 
 Approach
 
@@ -51,7 +51,7 @@ Rounded off to nearest multiple of 5.
 Time Complexity:
 O(1)
 
-🔹 Question 5 – Skipping Numbers
+ Question 5 – Skipping Numbers
 
 Approach
 
@@ -62,7 +62,7 @@ Stop the loop until sum reaches N.
 Time Complexity:
 O(m)
 
-🔹 Question 6 – Contest Score Judge
+ Question 6 – Contest Score Judge
 
 Approach
 
