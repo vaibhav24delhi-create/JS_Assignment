@@ -26,7 +26,6 @@ if (seed % 2 != 0) {
     fare = fare + seed;
 }
 
-// round up to nearest multiple of 5
 if (fare % 5 != 0) {
     fare = fare + (5 - fare % 5);
 }
