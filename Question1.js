@@ -8,7 +8,6 @@ for (var x = L; x <= R; x++) {
 
     if (x % K != 0) continue;
 
-    // check for zero digit
     var temp = x;
     var hasZero = false;
     while (temp > 0) {
@@ -20,7 +19,7 @@ for (var x = L; x <= R; x++) {
     }
     if (hasZero) continue;
 
-    // sum of digits
+    
     temp = x;
     var digitSum = 0;
     while (temp > 0) {
@@ -28,7 +27,6 @@ for (var x = L; x <= R; x++) {
         temp = Math.floor(temp / 10);
     }
 
-    // check if digitSum is prime
     var isPrime = true;
     if (digitSum < 2) {
         isPrime = false;
